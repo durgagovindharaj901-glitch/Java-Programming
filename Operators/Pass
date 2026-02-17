@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Pass{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int theo_marks = sc.nextInt();
+        int prac_marks = sc.nextInt();
+        int avg = (theo_marks + prac_marks) / 2;
+        if(theo_marks >= 50 && prac_marks >= 50 && avg >=60){
+            System.out.println("PASS");
+        }else{
+            System.out.println("FAIL");
+        }
+    }
+}
