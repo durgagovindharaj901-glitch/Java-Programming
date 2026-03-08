@@ -30,9 +30,10 @@ class GradePerformance{
         double passPercentage = (passed * 100.0) / n;
 
         System.out.println("Total Students: " + n);
-        System.out.println("Maximum Grade: " + max);
-        System.out.println("Minimum Grade: " + min);
+        System.out.println("Highest Grade: " + max);
+        System.out.println("Lowest Grade: " + min);
         System.out.println("Failed Students: " + failed);
         System.out.printf("Pass Percentage: %.2f", passPercentage);
     }
+
 }
